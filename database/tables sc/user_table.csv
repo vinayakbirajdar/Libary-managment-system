@@ -1,0 +1,3 @@
+USER_ID,USER_NAME,USER_PASSWORD,EMAIL,ROLE
+1,vinayak,vsb@123,vinayak123@gmail.com,member
+2,rakesh,rakesh@123,rakesh123@gmail.com,member

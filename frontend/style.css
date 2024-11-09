@@ -1,0 +1,115 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+/* Main background container */
+.main-container {
+    background-image: url("img-bg.png");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 50px;
+}
+
+/* Login form container */
+.login-container {
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Form styling */
+.form-con {
+    width: 100%; /* Use full width of the container */
+    background: rgba(0, 0, 0, 0.6);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; /* Add space between elements */
+}
+
+/* Login text */
+.login-text {
+    font-size: 40px;
+    color: rgba(233, 198, 5, 0.826);
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Input fields */
+.input {
+    width: 100%;
+    max-width: 300px; /* Control input size */
+    height: 50px;
+    border-radius: 20px;
+    padding: 0 15px;
+    border: 1px solid #ccc;
+    font-size: 18px;
+    box-sizing: border-box; /* Ensure padding is included */
+}
+
+/* Placeholder styling */
+.input::placeholder {
+    color: #aea546;
+    text-align: center;
+}
+
+/* Submit button */
+.submit-btn {
+    width: 100%;
+    max-width: 300px;
+    font-size: 25px;
+    padding: 10px;
+    color: rgba(233, 198, 5, 0.826);
+    background-color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 5px 15px rgba(16, 18, 0, 0.4);
+}
+
+/* Hover Effect */
+.submit-btn:hover {
+    background-color: rgba(233, 198, 5, 0.826);
+    color: white;
+    transform: scale(1.1);
+    box-shadow: 0 8px 20px black;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .main-container {
+        padding-top: 30px;
+    }
+
+    .login-container {
+        width: 90%; /* Adjust for smaller screens */
+    }
+}
+
+a{
+    font-size: 20px;
+    text-decoration: none;
+    color:wheat;
+    background-color: transparent !important;
+    
+}
+.options {
+    display: flex;
+    justify-content: space-between; 
+    width: 100%;
+}
+
+a:hover{
+    color: white;
+}

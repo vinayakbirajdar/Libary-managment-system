@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View User</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="user-view-container">
+        <h2>User Information</h2>
+        <p><strong>User ID:</strong> 12345</p>
+        <p><strong>Name:</strong> John Doe</p>
+        <p><strong>Email:</strong> johndoe@example.com</p>
+        <p><strong>Phone:</strong> (123) 456-7890</p>
+        
+        <h3>Books Borrowed</h3>
+        <ul>
+            <li><strong>Title:</strong> Book One | <strong>Author:</strong> Author A | <strong>Borrowed On:</strong> 2024-10-01 | <strong>Due:</strong> 2024-10-15</li>
+            <li><strong>Title:</strong> Book Two | <strong>Author:</strong> Author B | <strong>Borrowed On:</strong> 2024-10-05 | <strong>Due:</strong> 2024-10-20</li>
+        </ul>
+
+        <h3>Account Status</h3>
+        <p><strong>Account Created:</strong> 2024-01-01</p>
+        <p><strong>Last Login:</strong> 2024-11-01</p>
+        <p><strong>Status:</strong> Active</p>
+
+        <div class="action-buttons">
+            <button onclick="editUser(12345)">Edit User Details</button>
+            <button onclick="deleteUser(12345)">Delete User</button>
+        </div>
+    </div>
+</body>
+</html>
